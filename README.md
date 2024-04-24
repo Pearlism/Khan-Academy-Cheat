@@ -7,7 +7,7 @@ If this script helped or interested you, please consider staring the repo above.
 
 ## Usage
 1. Download a userscript manager like [TamperMonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) or [Greasemonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/).
-2. Use [this link](https://github.com/adubov1/khanacademy_bot/raw/main/khanacademy_revealer.user.js) to install the script. 
+2. Use [this link](https://github.com/Pearlism/Khan-Academy-Cheat/blob/main/KhanCheat.js) to install the script. 
 3. Click the extension while in Khan Academy and ensure both the extension and the script are on.
 4. Open Developer Tools and go to the Console tab. The script will console log answers as the browser gets them.
 
