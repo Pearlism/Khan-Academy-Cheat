@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Pearls Khan Cheat
-// @version      V3
+// @version      3
 // @description  Khan Academy hates me
 // @author       Pearl On Top (github@Pearlism)
 // @match        https://www.khanacademy.org/*
