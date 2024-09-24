@@ -1,6 +1,6 @@
 # Khan Academy Cheat
 
-  *Working as of 4/23/2024 (Thanks to [@Pearlism](https://github.com/Pearlism))* 
+  *Working as of 9/24/2024 (Thanks to [@Pearlism](https://github.com/Pearlism))* 
 
 If this script helped or interested you, please consider staring the repo above. That number looks cool when it's big
 
