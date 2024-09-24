@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Pearls Khan Cheat
-// @version      3
-// @description  Khan Academy hates me
-// @author       Pearl On Top (github@Pearlism)
+// @name         Khan Academy By Landen.419
+// @version      1.4
+// @description  ur welcome
+// @author       Landen.419
 // @match        https://www.khanacademy.org/*
 // @grant        none
 // ==/UserScript==
@@ -101,6 +101,8 @@ let item, question;
                         switch (widgetName.split(" ")[0]) {
                             case "numeric-input":
                                 return freeResponseAnswerFrom(question).log();
+                            case "input-number":
+                                return freeResponseAnswerFrom(question).log();
                             case "radio":
                                 return multipleChoiceAnswerFrom(question).log();
                             case "expression":
@@ -113,8 +115,8 @@ let item, question;
 
             if (!window.loaded) {
                 console.clear();
-                console.log("%c Khan easy asf ", "color: mediumvioletred; -webkit-text-stroke: .5px black; font-size:40px; font-weight:bolder; padding: .2rem;");
-                console.log("%cCreated by Landen (github@Landen2good)", "color: white; -webkit-text-stroke: .5px black; font-size:15px; font-weight:bold;");
+                console.log("%c Answer Revealer ", "color: mediumvioletred; -webkit-text-stroke: .5px black; font-size:40px; font-weight:bolder; padding: .2rem;");
+                console.log("%cCreated by Landen.419", "color: white; -webkit-text-stroke: .5px black; font-size:15px; font-weight:bold;");
                 window.loaded = true;
             }
 
@@ -130,6 +132,8 @@ let item, question;
                         return answer.value;
                     }
                 });
+            } else if (widget.options?.inexact == false) {
+                return widget.options.value;
             }
         }).flat().filter((val) => { return val !== undefined; });
 
